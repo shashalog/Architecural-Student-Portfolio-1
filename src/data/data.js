@@ -1,7 +1,7 @@
 // CUSTOMIZE THIS FILE TO ADD YOUR OWN DATA
 
 const data = {
-    name: "Elisha Samano",x
+    name: "Elisha Samano",
     bio: "Undergraduate BDCI Student at University of Calgary",
     contact: {
         email: "elisha.samano1@ucalgary.ca",

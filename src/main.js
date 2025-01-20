@@ -215,6 +215,10 @@ document.querySelector("#app").innerHTML = `
     </div>
 </section>
 
+<a href="./9.jpg">
+<img src="./9.jpg" style="display: block; margin-left: auto; margin-right: auto; margin-top:50px; margin-bottom:0px">
+</a>
+
 <!-- Link for sources -->
 <h5 style="text-align: center;"></h5>
 <a href="https://pin.it/5iHPEf3QX" target="_blank" style="display: block; text-align: center; margin-bottom: 100px;">Click here to visit my sources</a>

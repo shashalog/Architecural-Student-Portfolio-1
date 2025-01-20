@@ -4,14 +4,13 @@
   line-height: 1.5;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #1a24ab;
 }
 
 * {
   /* Reset margins, padding, and set box-sizing */
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 #app {
@@ -135,6 +134,19 @@ img {
   font-weight: 100;
   margin-left: 2em;
   margin-top: 3em;
+}
+
+#description1 {
+  font-family: 'Silkscreen', sans-serif; /* Applying the Silkscreen font */
+  font-weight: 400;  /* Choose the weight (400 or 700 as per the font file you included) */
+  align-items: center;
+  color: #fff;
+  }
+
+  /* Applying the Silkscreen font to all elements with description1, description2, and description3 */
+#description1, #description2, #description3 {
+  font-family: 'Silkscreen', sans-serif;
+  font-weight: 400;
 }
 
 @media screen and (max-width: 768px) {

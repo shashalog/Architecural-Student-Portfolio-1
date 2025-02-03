@@ -29,7 +29,7 @@ document.querySelector("#app").innerHTML = `
       <h1>${data.name}</h1>
       <p>${data.bio}</p>
     </section>
-
+    
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -227,13 +227,14 @@ document.querySelector("#app").innerHTML = `
 
 <script>
     document.getElementById("nextButton").addEventListener("click", function() {
-      window.location.href = "nextPage.html"; // This will navigate to the next page
+      window.location.href = "nextPage.html"; 
     });
-  </script>
+</script>
 
-
+  
 </body>
 </html>
+
 
 
     ${/* section commented out 
@@ -313,3 +314,5 @@ ${/* Model 3 commented out
 //createThreeScene("#model1", "/3DModels/project1/cube.obj");
 //createThreeScene("#model2", "/3DModels/project2/tree.obj");
 //createThreeScene("#model3", "/3DModels/project3/cottage.obj");
+
+

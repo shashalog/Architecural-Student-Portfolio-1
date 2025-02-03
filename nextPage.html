@@ -94,6 +94,16 @@ document.querySelector("#app").innerHTML = `
     </div>
 
     <div class="button-container">
+        <button id="backButton">Back to Home</button>
+    </div>
+  
+    <script>
+      document.getElementById("backButton").addEventListener("click", function() {
+        window.location.href = "index.html"; // Navigate back to the home page
+      });
+    </script>
+
+    <div class="button-container">
         <button id="nextButton">Next</button>
     </div>
 

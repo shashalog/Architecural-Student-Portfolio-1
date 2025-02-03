@@ -225,9 +225,11 @@ document.querySelector("#app").innerHTML = `
 
 <button id="nextButton">Next</button>
 
-document.getElementById("nextButton").addEventListener("click", function() {
-    window.location.href = "nextPage.html"; // The new themed page
-});
+<script>
+    document.getElementById("nextButton").addEventListener("click", function() {
+      window.location.href = "nextPage.html"; // This will navigate to the next page
+    });
+  </script>
 
 
 </body>

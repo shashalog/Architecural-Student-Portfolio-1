@@ -223,8 +223,16 @@ document.querySelector("#app").innerHTML = `
 <h5 style="text-align: center;"></h5>
 <a href="https://pin.it/5iHPEf3QX" target="_blank" style="display: block; text-align: center; margin-bottom: 100px;">Click here to visit my sources</a>
 
+<button id="nextButton">Next</button>
+
+document.getElementById("nextButton").addEventListener("click", function() {
+    window.location.href = "nextPage.html"; // The new themed page
+});
+
+
 </body>
 </html>
+
 
     ${/* section commented out 
       <section id="projects">

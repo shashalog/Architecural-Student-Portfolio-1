@@ -162,3 +162,33 @@ img {
     margin: 5px 0;
   }
 }
+
+
+#nextButton {
+  display: block;
+  margin: 50px auto;
+  padding: 15px 30px;
+  font-size: 1.5rem;
+  background-color: #0ff;
+  color: #000;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: 'Orbitron', sans-serif;
+  box-shadow: 0px 0px 15px rgba(0, 255, 255, 0.7);
+  transition: 0.3s ease;
+}
+
+#nextButton:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 25px rgba(0, 255, 255, 1);
+}
+
+
+#secondPage {
+  background-color: #3d3d3d;
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Chivo', sans-serif;
+}

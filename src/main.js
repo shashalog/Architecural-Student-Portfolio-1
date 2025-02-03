@@ -30,12 +30,6 @@ document.querySelector("#app").innerHTML = `
       <p>${data.bio}</p>
     </section>
     
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Website</title>
     <style>
         /* Reset some default styles */
         body {
@@ -157,9 +151,8 @@ document.querySelector("#app").innerHTML = `
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Chivo:wght@400;700&display=swap" rel="stylesheet">
 
-</head>
-<body>
 
 <h2>01 - Cadavre Exquis (Exquisite Corpse)</h2>
 
@@ -223,78 +216,36 @@ document.querySelector("#app").innerHTML = `
 <h5 style="text-align: center;"></h5>
 <a href="https://pin.it/5iHPEf3QX" target="_blank" style="display: block; text-align: center; margin-bottom: 100px;">Click here to visit my sources</a>
 
-<button id="nextButton">Next</button>
-
-<script>
-    document.getElementById("nextButton").addEventListener("click", function() {
-      window.location.href = "nextPage.html"; 
-    });
-</script>
-
-  
-</body>
-</html>
-
-
-
-    ${/* section commented out 
-      <section id="projects">
-      <div id="project-row">
-      Cadavre Exquis - Exquisite Corpse
-        <div class="three-model">
-          <img src="./imaginative hedonism.jpg" id=model1 alt="Model 1 Image"/>
-        </div>
-        <div id="images-description">
-          <div id="images">
-            ${cubes
-              .map(
-                (cube, index) => `<img src="${cube}" alt="cube${index + 1}" />`
-              )
-              .join("")}
-          </div>
-          <h4 id="description">A cubic 3D model is a geometric representation of a cube, consisting of six equal square faces joined at right angles. Each edge of the cube is of equal length, forming a symmetrical, rigid structure. The model can be textured, colored, or transparent, and it may include variations such as beveled edges or hollow interiors, depending on its intended purpose in design, animation, or engineering.</h4>
-        </div>
-      </div>
-      */''}
-
-      ${/* Model 2 commented out
-      <div id="project-row">
+ <div id="project-row">
+ <h1 style="text-align: left; font-size: 1rem;">SECTION TWO:</h1>
+ <h5 style="text-align: left; font-size: 2rem;">INTEROP(ERABILITY)</h5>
       Model 2
         <div class="three-model">
           <div id="model2"></div>
         </div>
         <div id="images-description">
           <div id="images">
-            ${trees
-              .map(
-                (trees, index) =>
-                  `<img src="${trees}" alt="tree${index + 1}" />`
-              )
-              .join("")}
-          </div>
-          <h4 id="description">A 3D tree model is a geometric representation of a tree, featuring a trunk, branches, and foliage. The trunk is typically cylindrical, with textured bark, while the branches extend outward to support leaves or a canopy. It may include roots or flowers for added detail.</h4>
-        </div>
+         <!-- Each image wrapped in an anchor tag to open in a new tab -->
+                <a href="00.png" target="_blank">
+                    <img src="00.png" alt="00" />
+                </a>
+                 <a href="01.png" target="_blank">
+                    <img src="01.png" alt="01" />
+                </a>
+                 <a href="02.png" target="_blank">
+                    <img src="02.png" alt="02" />
+                </a>
+                 <a href="03.png" target="_blank">
+                    <img src="03.png" alt="03" />
+                </a>
+                 <a href="04.png" target="_blank">
+                    <img src="04.png" alt="04" />
+                </a>
+                 <a href="05.png" target="_blank">
+                    <img src="05.png" alt="05" />
+                </a>
+    
       </div>
-*/""}
-
-${/* Model 3 commented out
-      <div id="project-row">
-      Model 3
-        <div class="three-model">
-          <div id="model3"></div>
-        </div>
-        <div id="images-description">
-          <div id="images">
-            ${houses
-              .map(
-                (house, index) => `<img src="${house}" alt="cube${index + 1}" />`
-              )
-              .join("")}
-          </div>
-          <h4 id="description">A 3D house model is a geometric representation of a house, featuring walls, a roof, and windows. It often includes additional details such as doors, chimneys, and balconies, with textures like brick, wood, or stucco to enhance realism. The interior may also feature rooms, furniture, and lighting for a more detailed design.</h4>
-        </div>
-      </div>
-      */""}
     </section>
 
     <ul id="footer-items">
@@ -312,7 +263,7 @@ ${/* Model 3 commented out
 
 // Create three.js scenes for each
 //createThreeScene("#model1", "/3DModels/project1/cube.obj");
-//createThreeScene("#model2", "/3DModels/project2/tree.obj");
+createThreeScene("#model2", "/3DModels/project2/comparisons.obj");
 //createThreeScene("#model3", "/3DModels/project3/cottage.obj");
 
 

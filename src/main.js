@@ -220,12 +220,12 @@ document.querySelector("#app").innerHTML = `
  <div id="project-row">
  <h1 style="text-align: center; font-size: 1rem; margin-top: 200px;">SECTION TWO:</h1>
  <h10 style="text-align: center; font-size: 5rem;">INTEROP(ERABILITY)</h10>
-      Model 2
+      Models
         <div class="three-model">
           <div id="model2"></div>
         </div>
         <div id="images1-description">
-          <div id="images1", style="margin-bottom: 200px";>
+          <div id="images1", style="margin-bottom: 50px";>
          <!-- Each image wrapped in an anchor tag to open in a new tab -->
                 <a href="00.png" target="_blank">
                     <img src="00.png" alt="00" />
@@ -245,8 +245,11 @@ document.querySelector("#app").innerHTML = `
                  <a href="05.png" target="_blank">
                     <img src="05.png" alt="05" />
                 </a>
-    
       </div>
+      photogrammetry
+        <div class="three-model">
+          <div id="model1"></div>
+        </div>
     </section>
 
     <ul id="footer-items">
@@ -263,8 +266,8 @@ document.querySelector("#app").innerHTML = `
 `;
 
 // Create three.js scenes for each
-//createThreeScene("#model1", "/3DModels/project1/cube.obj");
-createThreeScene("#model2", "/3DModels/project2/comparisons.obj");
+createThreeScene("#model2", "/3DModels/project2/aaa.obj");
+createThreeScene("#model1", "/3DModels/project1/Scaniverse_2025_02_02_200145.obj");
 //createThreeScene("#model3", "/3DModels/project3/cottage.obj");
 
 

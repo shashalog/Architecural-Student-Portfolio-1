@@ -263,8 +263,8 @@ document.querySelector("#app").innerHTML = `
 `;
 
 // Create three.js scenes for each
-//createThreeScene("#model2", "/3DModels/project2/aaa.obj");
-createThreeScene("#model1", "/3DModels/project1/Scaniverse_2025_02_02_200145.obj");
+createThreeScene("#model2", "/3DModels/project2/aaa.obj");
+//createThreeScene("#model1", "/3DModels/project1/Scaniverse_2025_02_02_200145.obj");
 //createThreeScene("#model3", "/3DModels/project3/cottage.obj");
 
 

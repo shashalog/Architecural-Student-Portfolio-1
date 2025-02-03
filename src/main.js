@@ -132,7 +132,7 @@ document.querySelector("#app").innerHTML = `
             text-align: left;
             letter-spacing: 2px;
             text-shadow: 0px 0px 10px rgba(255, 0, 217, 0.6);
-            margin-bottom: 200px;
+            margin-bottom: 100px;
         }
 
          h6 {
@@ -216,15 +216,16 @@ document.querySelector("#app").innerHTML = `
 <h5 style="text-align: center;"></h5>
 <a href="https://pin.it/5iHPEf3QX" target="_blank" style="display: block; text-align: center; margin-bottom: 100px;">Click here to visit my sources</a>
 
+
  <div id="project-row">
- <h1 style="text-align: left; font-size: 1rem;">SECTION TWO:</h1>
- <h5 style="text-align: left; font-size: 2rem;">INTEROP(ERABILITY)</h5>
+ <h1 style="text-align: center; font-size: 1rem; margin-top: 200px;">SECTION TWO:</h1>
+ <h10 style="text-align: center; font-size: 5rem;">INTEROP(ERABILITY)</h10>
       Model 2
         <div class="three-model">
           <div id="model2"></div>
         </div>
-        <div id="images-description">
-          <div id="images">
+        <div id="images1-description">
+          <div id="images1", style="margin-bottom: 200px";>
          <!-- Each image wrapped in an anchor tag to open in a new tab -->
                 <a href="00.png" target="_blank">
                     <img src="00.png" alt="00" />

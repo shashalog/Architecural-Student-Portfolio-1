@@ -69,6 +69,12 @@ h1 {
   font-size: 2.5em;
 }
 
+h10 {
+  /* Heading font size */
+  font-size: 5rem;
+  margin-bottom: 2em;
+}
+
 #projects {
   /* Center project section */
   display: flex;
@@ -124,6 +130,28 @@ img {
   align-items: center;
   align-items: center;
   position: relative;
+}
+
+
+/* Cube image container style */
+#images1 {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+#images1 img {
+  max-width: 100px;
+  height: auto;
+  border: 2px solid #bababa; /* Border around each cube image */
+  border-radius: 1px;
+  transition: transform 0.5s ease;
+}
+
+#images1 img:hover {
+  transform: scale(1.1);  /* Slight zoom effect on hover */
 }
 
 #description {

@@ -220,6 +220,7 @@ document.querySelector("#app").innerHTML = `
  <div id="project-row">
  <h1 style="text-align: center; font-size: 1rem; margin-top: 200px;">SECTION TWO:</h1>
  <h10 style="text-align: center; font-size: 5rem;">INTEROP(ERABILITY)</h10>
+ <h1 style="text-align: center; font-size: 1rem; margin-bottom: 150px;">B L E N D E R  >>  R H I N O 3D</h1>
       Models
         <div class="three-model">
           <div id="model2"></div>

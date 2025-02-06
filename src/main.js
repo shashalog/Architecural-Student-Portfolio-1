@@ -226,7 +226,7 @@ document.querySelector("#app").innerHTML = `
           <div id="model2"></div>
         </div>
         <div id="images1-description">
-          <div id="images1", style="margin-bottom: 50px";>
+          <div id="images1", style="margin-bottom: 100px";>
          <!-- Each image wrapped in an anchor tag to open in a new tab -->
                 <a href="00.png" target="_blank">
                     <img src="00.png" alt="00" />
